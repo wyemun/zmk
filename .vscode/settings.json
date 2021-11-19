@@ -1,6 +1,13 @@
 {
   "files.associations": {
     "*.overlay": "dts",
-    "*.keymap": "dts"
+    "*.keymap": "dts",
+    "types.h": "c",
+    "event_manager.h": "c",
+    "position_state_changed.h": "c",
+    "string_view": "c",
+    "util.h": "c",
+    "array": "c",
+    "string": "c"
   }
 }
