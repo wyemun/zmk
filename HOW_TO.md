@@ -23,5 +23,7 @@ Every now and then, docker container will be problematic, do the following:
 5. Run vscode "Rebuild and Reopen in Container"
 
 ## METHOD 2: With Docker Compose
+0. Check the mount location in `docker-compose.yml`
 1. Run `docker compose up`
 2. SSH into the container by (probably in another shell) : `docker compose exec zmk bash`
+3. In the SSH session, run `bash build.sh`
