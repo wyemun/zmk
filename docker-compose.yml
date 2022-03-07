@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  zmk:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ~/MyKeyboard/sofle-v2-zmk-config/:/usr/app/zmk-config:ro
+      - ./build/:/usr/app/build
+    tty: true # keep container up indefinitely

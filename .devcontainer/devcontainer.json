@@ -17,6 +17,5 @@
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
-  "forwardPorts": [3000],
-  "remoteUser": "wyemun"
+  "forwardPorts": [3000]
 }
